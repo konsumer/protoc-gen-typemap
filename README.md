@@ -27,6 +27,12 @@ If you don't want to install globally (`npm i -g` above) you can run like this:
 protoc --plugin=protoc-gen-typemap=./typemap.js --typemap_out=generated --typemap_opt=DocV2,4,1.2.4 GooglePlay.proto < hearthstone.bin
 ```
 
+You can also shorten the command by putting options in `typemap_out` flag:
+
+```
+cat test.pb | protoc --typemap_out=MyMessage:generated schema.proto
+```
+
 
 #### options
 

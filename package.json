@@ -1,0 +1,14 @@
+{
+  "name": "protoc-gen-typemap",
+  "version": "0.0.0",
+  "keywords": ["protoc", "protobuf", "rawproto", "typemap", "map"],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (https://konsumer.js.org/)",
+  "license": "MIT",
+  "description": "Protoc plugin for generating typemaps for rawproto",
+  "dependencies": {
+    "protoc-plugin": "^0.0.6"
+  },
+  "bin": {
+    "protoc-gen-typemap": "typemap.js"
+  }
+}
